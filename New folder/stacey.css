@@ -1,0 +1,188 @@
+body {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 160vh;
+    background: rgb(85,253,255);
+    background: linear-gradient(0deg, rgba(85,253,255,1) 0%, rgba(62,110,255,1) 100%);
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 30%;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0px 0px 15px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 100px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+header a {
+    color: black;
+    display: inline-flex;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 270px;
+    border-radius: 30px;
+    text-decoration: none;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.other {
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+header a:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border-radius: 20px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.container-stacey {
+    border: 5px solid blue;
+    height: 1000px;
+    margin: 100px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 100px;
+}
+
+.stockinfo img {
+    margin: 20px 0 0 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.stockdesc {
+    text-align: center;
+}
+
+.stockinfoheadings {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 340px;
+    margin-top: -300px;
+    width: auto;
+    vertical-align: text-top;
+}
+
+.star {
+    text-align: start;
+    margin-top: -270px;
+    text-align: center;
+    margin-left: -580px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto;
+    vertical-align: text-top;
+}
+
+.price {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-flex;
+    margin-left: -470px;
+    color: azure;
+}
+
+span #free {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.stockcount {
+    display: block;
+    margin-left: -545px;
+    margin-top: -130px;
+}
+
+.buttons {
+    margin-top: -740px;
+    font-size: 30px;
+    margin-left: 320px;
+}
+
+.buttons a {
+    color: black;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 50px;
+    text-decoration: none;
+    margin-top: -34px;
+    transition: 0.3s ease-in-out;
+}
+
+#addtocart {
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: yellow;
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+#buynow {
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background: rgb(255, 76, 26);
+    width: 300px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;    
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+#addtocart:hover {
+    background-color: rgb(237, 255, 118);
+}
+
+#buynow:hover {
+    background-color: rgb(255, 52, 52);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+.description {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 1000px;
+    font-size: 22px;
+    font-family: cursive, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 80px;
+    padding: 0px 30px 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px;
+}
+
+.reserve {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 150px;
+}
